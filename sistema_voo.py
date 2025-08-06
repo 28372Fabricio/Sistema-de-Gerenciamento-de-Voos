@@ -134,7 +134,7 @@ class Voo:
             print(f"Tripulação do voo {self.numero_voo}:")
             for tripulante in self.tripulacao:
                 print(f"- {tripulante}")    
-    
+
 class CompanhiaAerea:
     """Agrupa seus voos (has-a)."""
     def __init__(self, nome: str) -> None:
@@ -251,7 +251,4 @@ if __name__ == "__main__":
     a1.logar_entrada()
     a1.auditar_voo(vgol1)
     a1.auditar_voo(vgol2)
-
-
-
 
